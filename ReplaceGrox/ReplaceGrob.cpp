@@ -23,9 +23,9 @@ void ReplaceGrob::ParseLine(const ArgScript::Line& line)
 		}
 		else
 		{
-			Sporepedia::ShopperRequest request(this);
-			request.shopperID = id("CreatureSpaceShopper");
-			request.Show(request); //open Sporepedia
+			Sporepedia::ShopperRequest request(this); //create Sporepedia request
+			request.shopperID = 0xF25AEF31; //0xF25AEF31 filter = every type of creature, including captains. only present in EP1 packages.
+			request.Show(request); //open Sporepedia with said request
 		}
 	}
 	else
