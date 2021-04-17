@@ -43,8 +43,6 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="ModInfo.xml">
-      <Filter>ReplaceGrox</Filter>
-    </Xml>
+    <Xml Include="ModInfo.xml" />
   </ItemGroup>
 </Project>
