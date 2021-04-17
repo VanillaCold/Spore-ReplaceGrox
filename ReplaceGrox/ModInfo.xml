@@ -1,0 +1,3 @@
+<mod displayName="Replace Grox" unique="chocice75ultimategroxreplacermod" description="This mod adds a cheat which replaces the creature used for the Grox empire." installerSystemVersion="1.0.1.1" hasCustomInstaller="true" dllsBuild="2.5.20">
+	<prerequisite>ReplaceGrox.dll</prerequisite>
+</mod>
